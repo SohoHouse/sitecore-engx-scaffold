@@ -1,1 +1,0 @@
-#Yeoman for Helix Feature

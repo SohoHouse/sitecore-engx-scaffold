@@ -1,5 +1,6 @@
 # Sitecore EngX Scaffold
 
+
 [![npm version](https://badge.fury.io/js/generator-sitecore-engx-scaffold.svg)](https://badge.fury.io/js/generator-sitecore-engx-scaffold)
 [![Build status](https://ci.appveyor.com/api/projects/status/a7qjl56tmurpn7qq?svg=true)](https://ci.appveyor.com/project/asmagin/sitecore-engx-scaffold)
 
