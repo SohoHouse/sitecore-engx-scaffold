@@ -31,15 +31,20 @@ namespace <%= solutionX %>.<%= moduleTypeX %>.<%= moduleNameX %>
             {
                 {{#each this.Fields}}
                 /// <summary>
-                /// The {{this.PropertyName}} field.
+                /// The {{this.Name}} field.
                 /// <para>Field Name: {{this.Name}}</para>
                 /// <para>Field ID: {{this.ID}}</para>
                 /// </summary>
-                public static readonly ID {{this.AsProperty}} = new ID("{{this.ID}}");
+                public struct {{this.AsProperty}}
+                {
+                    public static readonly ID FieldID = new ID("{{this.ID}}");
+
+                    public static readonly string FieldName = "{{this.Name}}";
+                }
 
                 {{/each}}
             }
         }
         {{/each}}
-    }    
+    }
 }
