@@ -11,9 +11,12 @@
 namespace <%= solutionX %>.<%= moduleTypeX %>.<%= moduleNameX %>
 {
     using Sitecore.Data;
+    using System.Diagnostics.CodeAnalysis;
     {{#each options.Using}}
     using {{this}};
     {{/each}}
+
+    [ExcludeFromCodeCoverage]
 
     public struct Templates
     {
