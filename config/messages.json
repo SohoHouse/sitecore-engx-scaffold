@@ -8,9 +8,6 @@
   "moduleName": {
     "prompt": "Provide a name of a module:"
   },
-  "vagrantBoxName": {
-    "prompt": "Provide a vagrant box name:"
-  },
   "sitecoreVersion": {
     "prompt": "Select a version of Sitecore:"
   },
